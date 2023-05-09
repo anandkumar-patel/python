@@ -1,0 +1,62 @@
+Python keywords:
+    There are 33 keywords available in Python.
+
+        A : True, False, None
+        B : and, or, not, is
+        C : if, elif, else
+        D : while,for, break, continue, return, in, yield
+        E : try, except, finally, raise, assert
+        F : import, from, as, class, def, pass, global, nonlocal, lambda, del, with
+
+Note :
+    A : All keywords in python contains only alphabet symbols.
+    B : Except True, False, None keywords, remaining all keywords contains lower case alphabet symbols.
+    C : All python keywords are case-sensitive i.e. True is not equalled to true.
+
+
+Rules to define Python Identifiers :
+    1) The only allowed characters in identifiers:
+        A : alphabet symbols (either lower case or upper case)
+        B : digits (0-9)
+        C : underscore symbols (_)
+    2) Identifiers should not start with digit :
+    3) Python Identifiers are case-sensitive :
+    4) Should not use Reserved words :
+    5) $ symbol is not allowed :
+
+Points to note while defining identifiers :
+    A : If an identifier starts with _ (underscore) symbol, then it indicates that it is private identifier.
+    B : If an identifier starts with __ (two underscores) symbols, then it indicates that strongly private identifier.
+    C : If an identifier starts and ends with __  (two underscores) symbols, then the identifier is language defined
+    special name, it is also known as magic methods. Example : __add__
+
+
+1 -	for declaring a variable in method as global variable use
+    keyword global before that variable and assign value in next line.
+2-	You can assign a multi-line string to a variable by using three quotes.
+	Note: in the result, the line breaks are inserted at the same position as in the code.
+3- 	Like many other popular programming languages, strings in Python are arrays of bytes
+	representing unicode characters.
+
+4- Slicing :
+	You can return a range of characters by using the slice syntax.
+	Specify the start index and the end index, separated by a colon,
+	to return a part of the string.
+	EXAMPLE :
+	Get the characters from position 2 to position 5 (end index not included):
+	b = "Hello, World!"
+	print(b[2:5])
+
+{py08-OopsDemo.py}
+Points for OOPS :
+
+    A :  We can't overload constructor in python, for getting the same feature use default value.
+
+    B : Class and Instance Variables (Or attributes)
+        In Python, instance variables are variables whose value is assigned inside a constructor
+        or method with self.
+        Class variables are variables whose value is assigned in class.
+
+    C :  We can create instance variable inside a method also , and it will be available for that instance ,
+    if that variable is not instantiated it will throw exception.
+    Advised to declare all instance variable in init only
