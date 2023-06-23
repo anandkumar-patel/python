@@ -9,7 +9,7 @@ Characteristics of List :
     7-  Since the Python List is an index based data structure, we can traverse the list by using indexes.
     8-  A positive index can be used to traverse from left to right, and a
         negative index used to traverse from right to left.
-        for positive it's [0 TO n] and for negative it's [-1 TO -n], -1 means last element.
+        for positive, it's [0 TO n] and for negative it's [-1 TO -n], -1 means last element.
 
 Deleting Elements from a List :
     You can remove the list elements in two different ways.
