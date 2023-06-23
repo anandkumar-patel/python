@@ -107,3 +107,17 @@ print("Quiz 69")
 lst69 = [1, 2, 3, 4, 5]
 new_lst69 = [i * i for i in lst69 if i % 2 == 0]
 print(new_lst69)
+
+# Quiz-73
+print("Quiz 73")
+li72 = [1, 2, 3, 4, 5]
+# it will pop the last added element
+print(li72.pop())
+
+
+# Quiz-77
+print("Quiz 77")
+li77 = [1, 2, 3]
+li78 = [4, 5, 6]
+z77 = zip(li77, li78)
+print(list(z77))

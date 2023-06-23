@@ -118,3 +118,58 @@ def func70():
 
 
 func70()
+
+# Quiz-71
+print("Quiz 71")
+
+
+def func71():
+    x71 = 10
+
+    def inner_fun():
+        nonlocal x71;
+        x71 += 5
+
+    inner_fun()
+    print(x71)
+
+
+func71()
+
+
+# Quiz-75
+print("Quiz 75")
+
+
+def func75(x):
+    if x == 0:
+        return 0
+    else:
+        return x + func75(x-1)
+
+
+print(func75(5))
+
+# Quiz-78
+print("Quiz 78")
+
+
+def func78(a, b=2, c=3):
+    print(a, b, c)
+
+
+print(func78(c=1, a=3))
+
+# Quiz-79
+print("Quiz 79")
+
+x79 = 10
+
+
+def func79():
+    global x79
+    x79 = 30
+
+
+func79()
+print(x79)
