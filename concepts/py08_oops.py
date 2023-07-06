@@ -19,7 +19,7 @@ class ParentClass:
     data_id = 1000
 
     # Hidden member of MyClass
-    __hiddenVariable = 0
+    __hidden_variable = 0
 
     # init method or constructor
     def __init__(self, emp_id="1112", emp_name="Anand"):
@@ -31,10 +31,10 @@ class ParentClass:
         print("base class constructor")
 
     # A member method that changes
-    # __hiddenVariable
+    # __hidden_variable
     def add(self, increment):
-        self.__hiddenVariable += increment
-        print (self.__hiddenVariable)
+        self.__hidden_variable += increment
+        print (self.__hidden_variable)
 
     # Sample Method
     def method1(self):

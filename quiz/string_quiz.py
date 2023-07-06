@@ -66,3 +66,9 @@ print(s37[10: 0: -1])
 print("Quiz 39")
 # x39 = str(2)+int(2.0)+float(3)
 # print(x39)
+
+# Quiz-80
+print("Quiz 80")
+s80 = "Hello, World!"
+print(s80[:5])
+print(s80[7:])

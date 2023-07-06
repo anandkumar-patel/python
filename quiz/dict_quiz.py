@@ -31,6 +31,12 @@ print(dict74.keys())
 
 # Quiz-76
 print("Quiz 76")
-dict74 = {"a": 1, "b": 2, "c": 3}
-for keys, values in dict74.items():
+dict76 = {"a": 1, "b": 2, "c": 3}
+for keys, values in dict76.items():
     print(keys, values)
+
+# Quiz-82
+print("Quiz 82")
+dict82 = {1: 'one', 2: 'two', 3: 'three', 4: 'four'}
+result82 = "three" in dict82.values()
+print(result82)

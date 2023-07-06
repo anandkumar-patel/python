@@ -47,7 +47,7 @@ Points to note while defining identifiers :
 	b = "Hello, World!"
 	print(b[2:5])
 
-{py08-OopsDemo.py}
+{py08-Oops.py}
 Points for OOPS :
 
     A :  We can't overload constructor in python, for getting the same feature use default value.

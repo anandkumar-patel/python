@@ -8,7 +8,8 @@ print(li8)
 print("Quiz 11")
 list11 = [1, 2, 3, 4, 5, 6]
 print(5.0 in list11, end=" ")
-print('5' in list11)
+print('5' in list11, end=" ")
+print(5 in list11)
 
 # Quiz-17
 list17 = [5, 't', 5.6, 32, 'PythonGeeks']
@@ -121,3 +122,10 @@ li77 = [1, 2, 3]
 li78 = [4, 5, 6]
 z77 = zip(li77, li78)
 print(list(z77))
+
+# Quiz-81
+print("Quiz 81")
+ls81 = [1, 2, 3]
+tp81 = (4, 5, 6)
+result81 = ls81 + list(tp81)
+print(result81)
