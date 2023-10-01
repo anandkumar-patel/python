@@ -44,7 +44,7 @@ else:
 print("\n case 2 :")
 a = (5, 6)
 b = (5, 4)
-if (a > b):
+if a > b:
     print("a is bigger")
 else:
     print("b is bigger")
@@ -62,9 +62,9 @@ else:
 print("\n case 4 :")
 a = (5, 6)
 b = (5, 4)
-if (a == b):
+if a == b:
     print("a and b are equal")
-elif (a > b):
+elif a > b:
     print("a is bigger")
 else:
     print("b is bigger")

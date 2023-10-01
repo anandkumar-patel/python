@@ -81,3 +81,17 @@ print(type(b48))
 # Quiz-49
 print("Quiz 49")
 print(1, 2, 3, 4, 5, sep='-', end='.')
+
+# Quiz-83
+print("Quiz 83")
+x = 5
+y = 10
+result83 = (x > y) or (y < 2) and (y == 10)
+print(result83)
+
+# Quiz-86
+print("Quiz 86")
+x86 = 10
+y86 = 2
+result86 = x86%y86 == 0
+print(result86)

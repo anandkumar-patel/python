@@ -40,4 +40,5 @@ a variable number of arguments and keyword arguments, respectively.
 def func1(a, b,*args, **kwargs):
     print(a, b, args, kwargs)
 
-func1(11,12,13,14,15,k=5)
+
+func1(11, 12, 13, 14, 15, k=5)

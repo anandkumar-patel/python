@@ -1,24 +1,24 @@
-def charCount(string):
-    print("string from file :", string)
-    freq = [None] * len(string)
+def char_count(input_data):
+    print("string from file :", input_data)
+    freq = [None] * len(input_data)
     print(type(freq))
-    for i in range(0, len(string)):
+    for i in range(0, len(input_data)):
         freq[i] = 1
-        for j in range(i + 1, len(string)):
-            if (string[i] == string[j]):
+        for j in range(i + 1, len(input_data)):
+            if input_data[i] == input_data[j]:
                 freq[i] += 1
-                string = string[: j] + '0' + string[j + 1:]
-        print("string after iteration ",i,string)
-    print("after iteration string is :",string)
-    print("list is ",freq)
+                input_data = input_data[: j] + '0' + input_data[j + 1:]
+        print("string after iteration ", i, input_data)
+    print("after iteration string is :", input_data)
+    print("list is ", freq)
     print("Characters and their frequencies")
     print("--------------------------------")
     for i in range(0, len(freq)):
-        if (string[i] != ' ' and string[i] != '0'):
-            print(string[i] + "-> " + str(freq[i]))
+        if input_data[i] != ' ' and input_data[i] != '0':
+            print(input_data[i] + "-> " + str(freq[i]))
 
 
 # opening a file and reading the content
 documentText = open('data', 'r')
-string = documentText.read().lower()
-charCount(string)
+data = documentText.read().lower()
+char_count(data)

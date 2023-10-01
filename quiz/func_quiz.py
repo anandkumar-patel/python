@@ -173,3 +173,15 @@ def func79():
 
 func79()
 print(x79)
+
+
+# Quiz-85
+print("Quiz 85")
+
+
+def func85(x, y):
+    return x + y
+
+
+result85 = func85(2, 3)*2
+print(result85)

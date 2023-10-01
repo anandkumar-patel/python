@@ -129,3 +129,11 @@ ls81 = [1, 2, 3]
 tp81 = (4, 5, 6)
 result81 = ls81 + list(tp81)
 print(result81)
+
+# Quiz-84
+print("Quiz 84")
+li84 = [1, 2, 3, 4, 5]
+li84_new = li84[1:4]
+li84_new.append(6)
+print(li84)
+print(li84_new)
