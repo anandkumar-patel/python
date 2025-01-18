@@ -1,4 +1,4 @@
-'''
+"""
 Characteristics of List :
     1-  Python List is a mutable sequence of characters, typically used to store collections of similar items.
     2-  List preserves the Insertion order.
@@ -62,7 +62,7 @@ Manipulating List Elements:
         pop() function is used to remove the last element of the list and returns the popped item.
         pop(index) function is used to remove the item based on the given index.
 
-        NOTE- Usually, append, and pop functions are used to implement a stack data structure.
+        NOTE-Usually, append, and pop functions are used to implement a stack data structure.
 
 Ordering the List Elements :
     1-  reverse()
@@ -84,27 +84,27 @@ considers the following scenarios to examine the elements.
 
 In the case of relational operators, the comparison happens only on the first element of the list;
 the remaining elements should be ignored.
-'''
+"""
 
-list = [10, 20, 50, 30, 60, 40]
-print("Before Updation : ", list)
-list[2] = "A"
-print("After Updation : ", list)
+list0 = [10, 20, 50, 30, 60, 40]
+print("Before Update : ", list0)
+list0[2] = "A"
+print("After Update : ", list0)
 
-print("Before remove : ", list)
-list.remove(10)
-print("After Deletion element 10 : ", list)
+print("Before remove : ", list0)
+list0.remove(10)
+print("After Deletion element 10 : ", list0)
 
-print("Before del : ", list)
-del list[3]
-print("After Deletion  3rd element : ", list)
+print("Before del : ", list0)
+del list0[3]
+print("After Deletion  3rd element : ", list0)
 
 print("# Obtaining List using the index :")
-list = [10, 20, 50, 30, 40]
-print(list[0])
-print(list[-1])  # last element
-print(list[-2])  # previous to last element
-print(list[4])
+list0 = [10, 20, 50, 30, 40]
+print(list0[0])
+print(list0[-1])  # last element
+print(list0[-2])  # previous to last element
+print(list0[4])
 
 print("# Accessing List using slice (:):")
 list1 = (10, 20, 50, 30, 40, 60, 70, 80, 90)
@@ -113,61 +113,61 @@ print("Between 2 and 7 indexes increment by 2 : ", list1[2:7:2])
 print("Between 2 and 7 indexes : ", list1[2:7])
 
 print("# Traversing List using Loops :")
-list = [10, 20, 50, 30]
+list2 = [10, 20, 50, 30]
 
 print("# Using For loop")
-for i in list:
+for i in list2:
     print(i)
 print("#Using while loop")
 i = 0
-while i < len(list):
-    print(list[i])
+while i < len(list2):
+    print(list2[i])
     i = i + 1
 print("len function")
-list = [10, 20, 50, 30, 40, 60, 70, 80, 90]
-print("Length of the list : ", len(list))
+list3 = [10, 20, 50, 30, 40, 60, 70, 80, 90]
+print("Length of the list : ", len(list3))
 
 print("count function")
-list = [1, 2, 4, 3, 3, 5, 5, 6, 3, 9, 99, 8]
-print("count the 3 :", list.count(3))
-print("count the 5 :", list.count(5))
-print("count the 9 :", list.count(9))
+list4 = [1, 2, 4, 3, 3, 5, 5, 6, 3, 9, 99, 8]
+print("count the 3 :", list4.count(3))
+print("count the 5 :", list4.count(5))
+print("count the 9 :", list4.count(9))
 
 print("index function")
-print(list.index(2))
+print(list4.index(2))
 
 print("max function :")
-print(max(list))
+print(max(list4))
 
 print("append function :")
-list.append(32)
-print(list)
+list4.append(32)
+print(list4)
 
 print("insert function :")
-list.insert(1, 34)
-print(list)
+list4.insert(1, 34)
+print(list4)
 
 print("extend function")
-list = ['o', 'n', 'l', 'i', 'n', 'e']
+list1 = ['o', 'n', 'l', 'i', 'n', 'e']
 list2 = ['t', 'u', 't', 'o', 'r', 'i', 'a', 'l', 's']
 list3 = ['p', 'o', 'i', 'n', 't']
-list.extend(list2)
-list.extend(list3)
-print(list)
+list1.extend(list2)
+list1.extend(list3)
+print(list1)
 
 print("remove function")
-list = [10, 20, 30, 40, 10, 20]
-list.remove(20)
-# list.remove(2) # ValueError: list.remove(x): x not in list
+list1 = [10, 20, 30, 40, 10, 20]
+list1.remove(20)
+# list1.remove(2) # ValueError: list.remove(x): x not in list
 
 print("pop function")
-print(list)
-print(list.pop())
+print(list1)
+print(list1.pop())
 
-print(list)
+print(list1)
 # pop index based
-print(list.pop(2))
-print(list)
+print(list1.pop(2))
+print(list1)
 
 print("# Aliasing and Cloning of List Object :")
 list1 = [10, 20, 30, 40, 50]
@@ -190,8 +190,8 @@ print(list1)
 print(list2)
 
 print("How to compare two Lists:")
-list1 = ['APPLE', 'BANANA', 'GRAPES']
-list2 = ['APPLE', 'BANANA', 'GRAPES']
+list1 = ['apple', 'banana', 'grapes']
+list2 = ['apple', 'banana', 'grapes']
 list3 = ['Apple', 'Banana', 'Grapes']
 
 print(list1 == list2)

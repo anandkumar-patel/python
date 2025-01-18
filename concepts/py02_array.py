@@ -12,6 +12,7 @@ cars = ["Ford", "Volvo", "BMW"]
 # length of array
 x = len(cars)
 print(x)
+print(type(cars))
 
 # looping the array
 for x in cars:

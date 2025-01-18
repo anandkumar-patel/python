@@ -1,74 +1,86 @@
-import string as s22
+import string as s
+
+# Quiz-01
+print("Quiz 01")
+li1 = "python".split(" ")
+print(li1)
+
+# Quiz-02
+print("Quiz 02")
+s2 = "Beginning"
+print(s2.replace('n', 'N', -1))
 
 # Quiz-03
 print("Quiz 03")
-li3 = "python".split(" ")
-print(li3)
+s03 = 'chocolate'
+print(s03.replace('o', 'p'))
+
+# Quiz-04
+print("Quiz 04")
+s4 = 'amazing'
+# un-comment
+# print(s4.index('a', 2, 2))
+
+# Quiz-05
+print("Quiz 05")
+s5 = "programming"
+print(s5.partition('r'))
+
+# Quiz-06
+print("Quiz 06")
+s6 = 'Python Possibilities'
+print(s6.partition('p'))
 
 # Quiz-07
 print("Quiz 07")
-s7 = "Beginning"
-print(s7.replace('n', 'N', -1))
+
+s7 = {c7 for c7 in s.ascii_lowercase if c7 in 'aeiou'}
+print(s7)
+
+# Quiz-08
+print("Quiz 08")
+s8 = "linkedin"
+print(s8.replace("in", "is"))
+
+# Quiz-09
+print("Quiz 09")
+s9 = '\n'
+print(s9.split(), s9.splitlines())
 
 # Quiz-10
 print("Quiz 10")
-s10 = 'chocolate'
-print(s10.replace('o', 'p'))
+s10 = "abcde"
+print(s10.split('c'))
+
+# Quiz-11
+print("Quiz 11")
+s11 = "awesome"
+print(s11.replace('e', 'r', 1))
 
 # Quiz-12
 print("Quiz 12")
-s12 = 'amazing'
-# un-comment
-# print(s12.index('a', 2, 2))
+s12 = "coding"
+print(s12[10: 0: -1])
 
-# Quiz-18
-print("Quiz 18")
-s18 = "programming"
-print(s18.partition('r'))
+# Quiz-13
+print("Quiz 13")
+# x13 = str(2)+int(2.0)+float(3)
+# print(x13)
 
-# Quiz-19
-print("Quiz 19")
-s19 = 'Python Possibilities'
-print(s19.partition('p'))
+# Quiz-14
+print("Quiz 14")
+s14 = "Hello, World!"
+print(s14[:5])
+print(s14[7:])
 
-# Quiz-22
-print("Quiz 22")
+# Quiz-15
+print("Quiz 15")
 
-s22 = {c22 for c22 in s22.ascii_lowercase if c22 in 'aeiou'}
-print(s22)
 
-# Quiz-27
-print("Quiz 27")
-s27 = "linkedin"
-print(s27.replace("in", "is"))
+def modify_str():
+    str15 = 'I love python'
+    str15.replace('love', 'like').split()
+    return str15
 
-# Quiz-32
-print("Quiz 32")
-s32 = '\n'
-print(s32.split(),s32.splitlines())
 
-# Quiz-33
-print("Quiz 33")
-s33 = "abcde"
-print(s33.split('c'))
-
-# Quiz-36
-print("Quiz 36")
-s36 = "awesome"
-print(s36.replace('e','r',1))
-
-# Quiz-37
-print("Quiz 37")
-s37 = "coding"
-print(s37[10: 0: -1])
-
-# Quiz-39
-print("Quiz 39")
-# x39 = str(2)+int(2.0)+float(3)
-# print(x39)
-
-# Quiz-80
-print("Quiz 80")
-s80 = "Hello, World!"
-print(s80[:5])
-print(s80[7:])
+print(modify_str())

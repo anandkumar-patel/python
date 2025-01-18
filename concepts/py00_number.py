@@ -16,7 +16,7 @@ print('Decimal :', data1, ' and Binary :', bin(data1))
 data2 = 0o127
 print(bin(data2))
 # Hexadecimal to binary using bin()
-data3=0x235f
+data3 = 0x235f
 print(bin(data3))
 
 print("converting to  int :")
@@ -28,7 +28,6 @@ data5 = "15.15"
 data6 = float(data5)
 print(int(data6))
 
-
 print("input from keyboard")
 data = int(input("Please enter any number :"))
 print(type(data))
@@ -37,7 +36,7 @@ print(type(data1))
 
 print("# How to read multiple values from the keyboard in a single line")
 x, y = [int(a) for a in input("Enter any 2 numbers :").split()]
-print("Product of given two numbers -: ", x*y)
+print("Product of given two numbers -: ", x * y)
 
-x, y, z = [float(a) for a in input("Enter any 3 numbers :").split(',')]
-print("Sum of given three numbers -: ", x+y+z)
+x, y, z = [float(a) for a in input("Enter any 3 numbers{comma separated } :").split(',')]
+print("Sum of given three numbers -: ", x + y + z)

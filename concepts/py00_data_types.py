@@ -98,6 +98,9 @@ x = ('a', 'b', 'c', 'd')
 print("value of x", x)
 print("type of x", type(x))
 
+x = y = 5, 4
+print(type(x), type(y))
+
 print("")
 print("set data type :")
 x = {'a', 'b', 'c', 'd'}
@@ -123,7 +126,7 @@ print("None data type :")
 
 # If a variable or def, does not have any value in it, the default data type is None.
 def sample():
-    y = 23
+    ya = 23
 
 
 print("value of sample", sample())

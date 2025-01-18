@@ -16,3 +16,10 @@ print(list(zip(z54, z55)))
 print("Quiz 56")
 t56 = (15, 5, 1, 7, 4, 10)
 print(median(t56))
+
+
+# Quiz-001
+print("Initialization of tuple")
+x0 = y0 = 7, 5
+print(type(x0), type(y0))
+print(x0, y0)

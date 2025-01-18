@@ -1,0 +1,16 @@
+string = "Hello World"
+print('Original string : ', string)
+print('capitalize() : ', string.capitalize())
+print('casefold() : ', string.casefold())
+print('swapcase() : ', string.swapcase())
+print('count("o") : ', string.count('o'))
+print('find("World") : ', string.find('World'))
+print(string.capitalize())
+print(string.capitalize())
+print(string.capitalize())
+print(string.capitalize())
+print(string.capitalize())
+print(string.capitalize())
+print(string.capitalize())
+print(string.capitalize())
+
